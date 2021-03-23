@@ -1,0 +1,59 @@
+body, html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Source Sans Pro, sans-serif;
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #42afcc, #8ecfe0,#b3dfeb);
+}
+
+.login-form{
+    height: 350px;
+    width: 300px;
+    background-color: snow;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form button{
+    margin: 0px;
+    margin-left: 88px;
+    background-color: #358ca3;
+    color: #fff;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 1.1em;
+    padding: 5px 15px;
+    border-radius: 15%;
+}
+
+.goHome{
+    text-align: center;
+    margin: 30px 0px 10px 10px;
+    text-decoration: bold;
+}
+
+input{
+    border: 1px solid #BBB;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 3px 8px;
+    justify-items: center;
+    margin: 5px 0px 5px 0px;
+}
+
+.login-form hr {
+    border: 0;
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right,
+    rgba(120,120,120,0),
+    rgba(120,120,120,0.75),
+    rgba(120,120,120,0));
+}
